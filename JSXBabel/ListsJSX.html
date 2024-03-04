@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+<body>
+<div id="my-react-app">
+
+</div>
+
+<script type="text/babel">
+    ReactDOM.render(
+        <div>
+            <div key="el-key" className="my-fruit">Some of my favorite fruits!
+            </div>
+
+            <ul>
+                <li key="O-key">Oranges</li>
+                <li key="A-key">Apples</li>
+                <li key="B-key">Bananas</li>
+                <li key="K-key">Kiwis</li>
+            </ul>
+        </div>
+        ,
+        document.getElementById("my-react-app")
+    );
+</script>
+</body>
+</html>
