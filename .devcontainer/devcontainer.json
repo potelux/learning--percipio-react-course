@@ -15,7 +15,20 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"esbenp.prettier-vscode",
+				"eamodio.gitlens",
+				"dbaeumer.vscode-eslint",
+				"ms-vscode.js-debug",
+				"ritwickdey.LiveServer",
+				"zhuangtongfa.material-theme",
+				"dracula-theme.theme-dracula",
+				"HookyQR.beautify",
+				"ecmel.vscode-html-css",
+				"tomi.xajssnippets",
+				"tomi.xasnippets",
+				"asvetliakov.vscode-neovim",
+				"GitHub.vscode-pull-request-github"
 			]
 		}
 	},
